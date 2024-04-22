@@ -10,8 +10,10 @@ public class user_pass {
         pass_word = new ArrayList();
         user_name.add("op");
         user_name.add("ken");
+        user_name.add("admin");
         pass_word.add("12");
         pass_word.add("123");
+        pass_word.add("admin");
     }
     public void user_pass_re(String user,String pass){
         user_name.add(user);
